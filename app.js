@@ -101,7 +101,6 @@ app.get("/produtos", (req, res) => {
     </body>
     
     </html>`;
-
       res.send(htmlProds);
     }
   );
