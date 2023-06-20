@@ -1,0 +1,160 @@
+:root {
+  --headline: hsl(210, 11%, 15%);
+  --paragraph: hsl(210, 9%, 31%);
+
+  --brand-beige: hsl(39, 100%, 97%);
+
+  --bg-light: hsl(180, 14%, 97%);
+
+  font-size: 62.5%; /* 1rem = 10px */
+}
+
+section {
+  background-color: var(--bg-light);
+}
+
+section header h4 {
+  font-size: 1.7rem;
+  font-weight: 700;
+  line-height: 120%;
+  letter-spacing: 0.08rem;
+  color: #0bc414;
+
+  text-transform: uppercase;
+
+  margin: 0.5rem 0;
+}
+section header h2 {
+  font-size: 3rem;
+  line-height: 3.5rem;
+
+  color: var(--headline);
+}
+section header h1 {
+  font-size: 3rem;
+  color: var(--headline);
+  line-height: 130%;
+
+  margin-bottom: 0.8rem;
+}
+
+section .content p {
+  font-size: 1.4rem;
+  line-height: 115%;
+  font-weight: 400;
+  color: var(--paragraph);
+
+  margin-bottom: 0.5rem;
+}
+
+.tb-contatos {
+  border: 5px solid #c8d0d4;
+  border-radius: 8px;
+  padding: 6px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.tb-contatos > a {
+  padding: 0 1%;
+  text-decoration: none;
+  color: #0bc414;
+  text-align: center;
+}
+
+.tb-contatos > a:hover {
+  filter: brightness(150%);
+}
+
+.services img {
+  width: 160px;
+  height: 110px;
+  border-radius: 16px;
+}
+
+.services .content {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.services .content p {
+  font-size: 1.5rem;
+  line-height: 130%;
+  font-weight: 400;
+  color: var(--paragraph);
+
+  margin-bottom: 0.8rem;
+}
+
+.services h2 {
+  margin-bottom: 2.8rem;
+  text-align: center;
+  font-size: 2rem;
+  color: var(--headline);
+}
+
+.services {
+  display: flex;
+  flex-direction: column;
+  padding: 0.7rem;
+  text-align: center;
+  justify-content: space-between;
+  background-color: var(--bg-light);
+  border: 1px solid var(--brand-light);
+  border-radius: 0.6rem;
+}
+
+.relatos img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.relatos .content {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.relatos .content p {
+  font-size: 1.5rem;
+  line-height: 130%;
+  font-weight: 400;
+  color: var(--paragraph);
+
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.relatos h2 {
+  margin-bottom: 2rem;
+  text-align: right;
+  font-size: 2rem;
+  padding-right: 25%;
+  color: var(--headline);
+}
+
+.relatos {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 0.5rem;
+  text-align: center;
+
+  background-color: var(--bg-light);
+  border: 1px solid var(--brand-light);
+  border-radius: 0.6rem;
+}
+
+.relator {
+  font-size: 1.5rem;
+}
+
+.container {
+  height: 86.5vh;
+  padding: 0 25%;
+  background-color: var(--bg-light);
+}

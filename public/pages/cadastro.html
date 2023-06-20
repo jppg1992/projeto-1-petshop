@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/base.css" />
+    <link rel="stylesheet" href="../css/cadastro.css" />
+    <title>Cadastro de Produtos</title>
+  </head>
+
+  <body>
+    <header class="navbar">
+      <nav>
+        <a href="/">
+          <img
+            class="logo"
+            src="../assets/logo4.png"
+            style="height: 50px; width: 50px"
+            alt="logo-da-pagina"
+          />
+        </a>
+      </nav>
+    </header>
+    <main>
+      <div class="container">
+        <form id="frm" action="/salvarProduto" method="post">
+          <div id="conteudo-form">
+            <fieldset id="dadosProd">
+              <legend>Novo Produto</legend>
+              <div id="divInput">
+                <div class="divInternaIputs">
+                  <input
+                    id="nome"
+                    name="nome"
+                    type="text"
+                    class="inputs"
+                    placeholder="Nome"
+                    autofocus="1"
+                    aria-label="Nome"
+                    required
+                  />
+                </div>
+
+                <div class="divInternaIputs">
+                  <input
+                    id="preco"
+                    name="preco"
+                    type="number"
+                    step="0.010"
+                    class="inputs"
+                    placeholder="Preço: '12,99'"
+                    required
+                  />
+                </div>
+
+                <div class="divInternaIputs">
+                  <input
+                    id="qtd"
+                    name="qtd"
+                    type="number"
+                    step="0.010"
+                    class="inputs"
+                    placeholder="Saldo em estoque '12,99'"
+                    required
+                  />
+                </div>
+                <div class="divInternaIputs">
+                  <textarea
+                    id="descricao"
+                    name="descricao"
+                    type="text"
+                    class="inputTextArea"
+                    placeholder="Descrição ...."
+                    required
+                    aria-multiline="true"
+                  ></textarea>
+                </div>
+              </div>
+            </fieldset>
+          </div>
+          <div class="divBtn">
+            <button id="button">Salvar</button>
+          </div>
+        </form>
+      </div>
+    </main>
+    <footer>
+      <a href="https://jppg1992.github.io/dev-links/" target="_blank">
+        © 2023 João Paulo Godinho</a
+      >
+    </footer>
+  </body>
+</html>

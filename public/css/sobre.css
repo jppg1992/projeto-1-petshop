@@ -1,0 +1,63 @@
+:root {
+  --headline: hsl(210, 11%, 15%);
+  --paragraph: hsl(210, 9%, 31%);
+
+  --brand-beige: hsl(39, 100%, 97%);
+
+  --bg-light: hsl(180, 14%, 97%);
+
+  font-size: 62.5%; /* 1rem = 10px */
+}
+
+section {
+  padding-block: 1rem;
+}
+
+section header h4 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 130%;
+  letter-spacing: 0.08rem;
+  color: #0bc414;
+
+  text-transform: uppercase;
+
+  margin-bottom: 1rem;
+}
+section header h2 {
+  font-size: 3rem;
+  line-height: 3.9rem;
+
+  color: var(--headline);
+}
+section header h1 {
+  font-size: 3rem;
+  color: var(--headline);
+  line-height: 130%;
+
+  margin-bottom: 1rem;
+}
+
+section .content p {
+  font-size: 1.5rem;
+  line-height: 130%;
+  font-weight: 400;
+  color: var(--paragraph);
+
+  margin-bottom: 1.5rem;
+}
+
+section .content li {
+  font-size: 1.8rem;
+  line-height: 100%;
+  font-weight: 400;
+  color: var(--paragraph);
+
+  margin-bottom: 1rem;
+}
+
+.container {
+  height: 87vh;
+  padding: 0 25%;
+  background-color: var(--bg-light);
+}
